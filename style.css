@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    transition: all 0.3s linear;
+  }
+  body {
+    background: linear-gradient(
+      90deg,
+      rgba(41, 30, 120, 1) 0%,
+      rgba(0, 0, 0, 1) 50%,
+      rgba(41, 30, 120, 1) 100%
+    );
+  }
+
+  .box {
+    animation: popup 0.4s;
+}
+
+@keyframes popup {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+.active
+{
+    color:  #ef4da0;
+}
+
+.shadow-text span {
+  text-shadow: #ffffff 0px 0px 6px;
+}
+.shadow-text p {
+  text-shadow: #ffffff 0px 0px 6px;
+}
+.shadow-text2 p {
+  text-shadow: rgba(255, 255, 255, 0.6) 1px 1px 1px, rgba(0, 0, 0, 0.6) -1px -1px 1px;
+}
