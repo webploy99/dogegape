@@ -1,4 +1,4 @@
-function url() {
+    function url() {
         fbq('track', 'Purchase');
         location.href="https://line.me/ti/p/~g19688";
     }
@@ -12,4 +12,3 @@ function url() {
       this.className += " active";
       });
     }
-    
