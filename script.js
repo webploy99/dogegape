@@ -1,7 +1,22 @@
-    function url() {
-        fbq('track', 'Purchase');
-        location.href="https://line.me/ti/p/~g19688";
-    }
+    // Button Url
+	function Url() {
+		fbq('track', 'Purchase');
+		var urls = new Array();
+		urls[0] = "https://line.me/ti/p/5L9ph9JFQS";
+		urls[1] = "https://line.me/ti/p/AJRyxO2MOi";
+		urls[2] = "https://line.me/ti/p/jwWQXdSYXT";
+		urls[3] = "https://line.me/ti/p/2FloJvZ_lC";
+		urls[4] = "https://line.me/ti/p/G9vAMA6Fv9";
+		urls[5] = "https://line.me/ti/p/JXYX42H8cE";
+    urls[6]="https://t.me/tv6Qe";
+    urls[7]="https://t.me/Dy6ps1";
+    urls[8]="https://t.me/e6p1b";
+    urls[9]="https://t.me/H6O2l";
+    urls[10]="https://t.me/He3jt";
+    urls[11]="https://t.me/gy3mv";
+		n = Math.floor(Math.random() * 10);
+		location.href= urls[n];
+	}
     
     var menus = document.getElementById("menu_");
     var btns = menus.getElementsByClassName("btn");
@@ -13,7 +28,7 @@
       });
     }
 
-
+    // check access url
     async function checkKoreanUser() {
       try {
         const response = await fetch('https://ipapi.co/json/');
