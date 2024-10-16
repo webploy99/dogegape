@@ -57,3 +57,19 @@
       }
     }
     checkKoreanUser();
+
+
+    async function displayUserIP() {
+      try {
+        const response = await fetch('https://api.ipify.org?format=json');
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        const data = await response.json();
+        console.log('User IP Address:', data.ip);
+        document.getElementById('ip-address').textContent = data.ip;
+      } catch (error) {
+        console.error('Error fetching IP address:', error);
+        document.getElementById('ip-address').textContent = 'Unable to retrieve IP';
+      }
+    }
