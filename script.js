@@ -93,3 +93,28 @@
 
   // Call the function after the DOM is fully loaded
   document.addEventListener('DOMContentLoaded', displayUserIP);
+
+
+  const images = [
+    "./img/1.jpg",
+    "./img/2.jpg",
+    "./img/3.jpg",
+    "./img/4.jpg",
+    "./img/5.jpg",
+    "./img/6.jpg",
+    "./img/7.jpg",
+    "./img/8.jpg",
+    "./img/9.jpg",
+    "./img/10.jpg",
+];
+
+let currentIndex = 0;
+const slideshowImage = document.getElementById("slideshow-image");
+
+function changeImage() {
+    currentIndex = (currentIndex + 1) % images.length; // Cycle through images
+    slideshowImage.src = images[currentIndex];
+}
+
+// Change image every 3 seconds (3000 ms)
+setInterval(changeImage, 1500);
