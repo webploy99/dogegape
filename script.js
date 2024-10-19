@@ -2,12 +2,9 @@
 	function UrlLine() {
 		fbq('track', 'Purchase');
 		var urls = new Array();
-		urls[0] = "https://line.me/ti/p/5L9ph9JFQS";
-		urls[1] = "https://line.me/ti/p/AJRyxO2MOi";
-		urls[2] = "https://line.me/ti/p/jwWQXdSYXT";
-		urls[3] = "https://line.me/ti/p/2FloJvZ_lC";
-		urls[4] = "https://line.me/ti/p/G9vAMA6Fv9";
-		urls[5] = "https://line.me/ti/p/JXYX42H8cE";
+		urls[0] = "https://line.me/ti/p/G9vAMA6Fv9";
+   urls[1] = "https://line.me/ti/p/AJRyxO2MOi";
+   urls[2] = "https://line.me/ti/p/jwWQXdSYXT";
 		n = Math.floor(Math.random() * 6);
 		location.href= urls[n];
 	}
@@ -15,12 +12,9 @@
 	function UrlTelegram() {
 		fbq('track', 'Purchase');
 		var urls = new Array();
-    urls[0]="https://t.me/tv6Qe";
-    urls[1]="https://t.me/Dy6ps1";
-    urls[2]="https://t.me/e6p1b";
-    urls[3]="https://t.me/H6O2l";
-    urls[4]="https://t.me/He3jt";
-    urls[5]="https://t.me/gy3mv";
+    urls[0] = "https://t.me/He3jt";
+   urls[1] = "https://t.me/Dy6ps1";
+   urls[2] = "https://t.me/a1bhk";
 		n = Math.floor(Math.random() * 6);
 		location.href= urls[n];
 	}
