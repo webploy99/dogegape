@@ -3,14 +3,14 @@
     margin: 0;
     transition: all 0.3s linear;
   }
-  body {
+  /* body {
     background: linear-gradient(
       90deg,
       rgba(41, 30, 120, 1) 0%,
       rgba(0, 0, 0, 1) 50%,
       rgba(41, 30, 120, 1) 100%
     );
-  }
+  } */
 
   .box {
     animation: popup 0.4s;

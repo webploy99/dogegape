@@ -1,17 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" href="./img/icon.jpg">
-  <title>소개 | 스타일출장</title>
-  <link rel="stylesheet" href="./style.css" />
-  <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="style.css" />
   <script src="https://cdn.tailwindcss.com"></script>
-  <!-- link icon -->
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <title>소개 | 스타일출장</title>
+
   <!-- Meta Pixel Code -->
     <script>
     !function(f,b,e,v,n,t,s)
@@ -31,154 +27,66 @@
     <!-- End Meta Pixel Code -->
 </head>
 
-<body>
-  <div id="ip-address"></div>
-  <div id="Korea"> 
-    <!-- header -->
-    <header class="fixed top-0 w-full bg-[#03045e] shadow-xl border-b border-blue-950 z-50">
-      <div class="max-w-5xl m-auto flex justify-between items-center text-white p-3">
-        <h1 class="text-2xl md:text-3xl font-[500]">출장 서비스</h1>
-        <div id="menu_" class="menu flex gap-4 md:text-lg">
-          <ul>
-            <li><a href="index.html" class="btn active">스타일출장안마</a></li>
-          </ul>
-          <ul>
-            <li><a href="main.html" class="btn">소개</a></li>
-          </ul>
+<body class="bg-[#edf2f4]">
+  <div id="Korea" class="max-w-[720px] m-auto md:py-20">
+     <div class="*:mt-8 font-semibold border p-4 md:px-10 lg:px-20 text-white rounded-3xl bg-gradient-to-b from-pink-600 to-purple-600">
+        <div><img src="./img/img1.jpg" alt="img1" class="rounded-3xl"></div>
+        <div class="border-2 rounded-3xl p-8 bg-[#023047] shadow-lg">
+           <p>행복 클럽에 오신 것을 환영합니다. 저희는 가장 진실된 한국 최고급 프라이빗 만남 플랫폼을 목표로 하고 있습니다. 전 세계 2000명 이상의 최상급 미녀 자원을 보유하고 있으며, 고객님의 다양한 요구를 충족시키기 위해 최선을 다하고 있습니다.</p>
         </div>
-      </div>
-    </header>
-    <!-- end of header -->
-    <section class="main">
-      <div class="max-w-5xl m-auto h-screen py-28 md:py-40 text-white p-4">
-        <div class="text-4xl md:text-7xl flex flex-col justify-center items-center">
-          <span>출장마사지 출장 </span>
-          <span>안마 <span class="text-[#ef4da0]">스타일</span> </span>
+        <span class="text-center block text-xl">마음에 드는 여자가 있다면, 바로 연락주세요.</span>
+        
+        <div onclick="UrlLine()" class="btn2 grid grid-cols-12 items-center p-2 rounded-full bg-[#023047] shadow-lg border-2 border cursor-pointer">
+           <div class="col-span-2 p-1"><img src="./img/g123.jpg" alt="avatar" class="rounded-full size-12"></div>
+           <p class="col-span-8 text-center font-medium text-[13px]">LINE 친구 추가하고, 미녀의 상세 정보를 받아보세요.</p>
+           <div class="col-span-2 p-1"><img src="./img/line.jpg" alt="line" class="rounded-full size-12 float-right"></div>
         </div>
-  
-        <div class="text-lg mt-10 md:mt-20 flex flex-col gap-6 justify-center items-center  *:flex *:flex-col *:items-center">
-          <div class="">
-            <p>스타일출장안마 & 스타일출장마사지</p>
-            <p><span class="text-[#00b1d2]"> 전국</span> 전지역 선입금 없는 후불제</p>
-            <p><span class="text-[#fdbe33]"> 프리미엄</span> 출장 서비스</p>
-          </div>
-    
-          <div class="">
-            <p><span class="text-[#fdbe33]">맞춤형</span> 관리사 선호하시는 스타일</p>
-            <p>​모든 고객님이 <span class="text-[#00b1d2]">만족</span> 하실때까지</p>
-            <p> <span class="text-[#d64161]">내상</span> 없는 확실한 <span class="text-[#00b1d2]">힐링</span> 타임</p>
-            <p><span class="text-[#fdbe33]">프라이빗한 </span> 마사지 케어 서비스 </p>
-          </div>
-    
-          <div class="">
-            <p>전국 출장 데이트매칭</p>
-            <p>외로운 오빠 고민할 시간에 빨리 연락주세요!</p>
-            <p> 지금 이벤트중이여서 행사가에  이용할수있습니다!</p>
-          </div>
-          
-          <!-- button -->
-          <!-- <div class="py-10">
-            <button onclick="Url()" class="px-10 py-4 bg-[#ef4da0] hover:bg-[#e63590] border border-[#e63590] hover:border-white shadow-md duration-100">“💌문의해주세요🥰”</button>
-          </div> -->
+        <div onclick="UrlTelegram()" class="btn2 grid grid-cols-12 items-center p-2 rounded-full bg-[#023047] shadow-lg border-2 border cursor-pointer">
+           <div class="col-span-2 p-1"><img src="./img/g123.jpg" alt="avatar" class="rounded-full size-12"></div>
+           <p class="col-span-8 text-center font-medium text-[13px]">TELEGRAM 친구 추가하고, 미녀의 상세 정보를 받아보세요.</p>
+           <div class="col-span-2 p-1"><img src="./img/telegram.png" alt="line" class="rounded-full size-12 float-right"></div>
+        </div>
 
-          <div class="w-72 m-auto flex flex-col gap-6 justify-center items-center text-xl text-white font-[500] py-5 *:cursor-pointer *:px-4 *:py-2 *:flex *:gap-3 *:items-center *:justify-center *:shadow">
-            <button onclick="UrlLine()"
-              class="w-full bg-blue-600 hover:bg-blue-700">
-              <span>💌문의해주세요🥰 </span>
-              <div><img src="./img/line.png" class="w-10"></div>
-            </button>
-            <button onclick="UrlTelegram()"
-              class="w-full bg-slate-700 hover:bg-slate-800">
-              <span>💌문의해주세요🥰 </span>
-              <div><img src="./img/telegram.png" class="w-10"></div>
-            </button>
-          </div>
-          
-          <span class="">오늘의 추천</span>
-          <div id="slideshow">
-            <img id="slideshow-image" src="./img/1.jpg" alt="Slideshow Image" class="sm:w-10/12 md:w-6/12 rounded-3xl">
-          </div>
-
-          <div class="">
-            <p>안녕하세요 방문해주셔서 감사합니다</p>
-            <p><span class="text-[#ef4da0]">스타일</span> 출장안마 인사드립니다</p>
-          </div>
-    
-          <div class="">
-            <p>출장서비스는 고객님이 계신곳으로</p>
-            <p>관리사님이 직접 방문하여</p>
-            <p><span class="text-[#00b1d2]">프라이빗한</span> 공간에서 <span class="text-[#00b1d2]"> 1:1로 케어</span> 로</p>
-            <p>힐링을 목적으로 운영되는 시스템으로​</p>
-          </div>
-    
-          <div class="">
-            <p>보다 안전하고 조용하게 관리를</p>
-            <p>받으실수있고 기록이나 <span class="text-[#fdbe33]">개인정보</span> 에</p>
-            <p>민감하신분들이 자주 찾아주시는데요</p>
-          </div>
-    
-          <div class="">
-            <p><span class="text-[#00b1d2]">직접 찾아가는 샵은</span> CCTV 또는</p>
-            <p>기록을 하는 업체가 아주 많습니다</p>
-            <p>다른고객의 눈치를 보시거나</p>
-            <p> <span class="text-[#d64161]">불편한 상황이 발생되지않습니다</span></p>
-          </div>
-    
-          <div class="">
-            <p>업체를 선별하실때 가장 중요한점은 </p>
-            <p> <span class="text-[#d64161]">선입금/예약금/보증비/보증금</span></p>
-            <p>위와 같은 단어를 얘기하거나</p>
-            <p>비슷한 명목으로  <span class="text-[#f8e19f]">금전을 요구</span> 한다면</p>
-            <p>그 업체는 사기업체 라는 겁니다</p>
-          </div>
-    
-          <div class="">
-            <p>출장은 <span class="text-[#00b1d2]">신뢰할수있는 업체 </span> 에서</p>
-            <p>안전하게 이용하셔야 합니다</p>
-          </div>
-          
-    
-          <div class="">
-            <p>모텔/호텔은 크게 상관없지만</p>
-            <p>자택/오피스텔/아파트 일경우는</p>
-            <p>주소가 노출되기 때문에</p>
-          </div>
-          
-    
-          <div class="">
-            <p> <span class="text-[#d64161]">조선족/피싱범</span> 들이 운영하고있는</p>
-            <p>사이트들은 안좋은쪽으로</p>
-            <p>이용할수도 있기때문입니다</p>
-          </div>
-          
-    
-          <div class="">
-            <p><span class="text-[#fdbe33]">안전을 최우선적</span> 으로 생각하고</p>
-            <p>고객님의 개인정보는</p>
-            <p> 당일날에 모두 삭제됩니다</p>
-          </div>
-    
-          <div class="">
-            <p>​스타일출장 소개글 <span class="text-[#00b1d2] underline">자세히보기</span></p>
-          </div>
+        <div class="flex flex-col justify-center items-center text-lg leading-9 *:text-center">
+           <p>개인알바조건만남</p>
+           <p>만남장소 시간만 정하면 언제든지 개인자차로 이동. 모텔.자택，카섹</p>
+           <p>장소 상관없음, 횟수 상관없음, 서비스 확실함</p>
+           <p>애널，노콘，질사입사，얼사69</p>
         </div>
         
-        <!-- video -->
-        <div class="rounded-xl overflow-hidden py-5 mt-5 md:w-6/12 m-auto">
-          <video class="w-full" src="./img/video.mp4" loop autoplay controls autobuffer playsinline></video>
+        <div><img src="./img/img2.jpg" alt="img2" class="rounded-3xl"></div>
+
+        <span class="text-center block text-xl">오늘의 추천</span>
+        <div id="slideshow">
+           <img id="slideshow-image" src="img/1.jpg" alt="Slideshow Image" class="rounded-3xl">
         </div>
-       
-        <div class="py-8">
-          <p class="text-center block">© 2024. All rights reserved by Dogegape</p>
+
+        <div onclick="UrlLine()" class="btn2 grid grid-cols-12 items-center p-2 rounded-full bg-[#023047] shadow-lg border-2 border cursor-pointer">
+           <div class="col-span-2 p-1"><img src="./img/g123.jpg" alt="avatar" class="rounded-full size-12"></div>
+           <p class="col-span-8 text-center font-medium text-[13px]">LINE 친구 추가하고, 미녀의 상세 정보를 받아보세요.</p>
+           <div class="col-span-2 p-1"><img src="./img/line.jpg" alt="line" class="rounded-full size-12 float-right"></div>
         </div>
-      </div>
-    </section>
+        <div onclick="UrlTelegram()" class="btn2 grid grid-cols-12 items-center p-2 rounded-full bg-[#023047] shadow-lg border-2 border cursor-pointer">
+           <div class="col-span-2 p-1"><img src="./img/g123.jpg" alt="avatar" class="rounded-full size-12"></div>
+           <p class="col-span-8 text-center font-medium text-[13px]">TELEGRAM 친구 추가하고, 미녀의 상세 정보를 받아보세요.</p>
+           <div class="col-span-2 p-1"><img src="./img/telegram.png" alt="line" class="rounded-full size-12 float-right"></div>
+        </div>
+
+        <div class="*:mt-3 border-2 rounded-3xl p-8 bg-[#023047] shadow-lg">
+           <p>저희의 약속: 보증금 없음, 어떠한 속임수도 없으며, 숨겨진 비용도 없습니다.</p>
+           <p>저희의 고집: 30분 이내에 고객님이 지정한 장소로 도착합니다.</p>
+           <p>저희의 보장: 전 세계 2000명 이상의 미녀 자원을 보유하고 있으며, 만족하지 않으실 경우 전액 환불해 드립니다.</p>
+           <p>저희에게 조금만 믿음을 주시면, 여러분께 절대적인 열정을 드리겠습니다!</p>
+        </div>
+
+        <span class="text-center block text-lg mb-20 text-red-700">⚠️친절한 안내:Facebook의 성인 광고 차단을 예방하기 위해, 저희의 연락처를 미리 저장해 두시기 바랍니다. 필요할 때를 대비해서요.</span>
+     </div>
   </div>
+  
+  <div id="NoKorea" class="text-6xl text-slate-800 font-bold w-full h-screen">
+   <p class="fixed inset-0 flex items-center justify-center tracking-wide">Error 404</p>
+ </div>
 
-  <div id="NoKorea" class="bg-white text-6xl text-slate-800 font-bold w-full h-screen hidden">
-		<p class="fixed inset-0 flex items-center justify-center tracking-wide">Error 404</p>
-	</div>
-
-  <script src="./script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
