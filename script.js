@@ -13,8 +13,7 @@
 		fbq('track', 'Purchase');
 		var urls = new Array();
     urls[0] = "https://t.me/He3jt";
-   urls[1] = "https://t.me/Dy6ps1";
-   urls[2] = "https://t.me/a1bhk";
+   urls[1] = "https://t.me/Muj9r";
 		n = Math.floor(Math.random() * 6);
 		location.href= urls[n];
 	}
