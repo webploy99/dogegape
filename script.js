@@ -26,11 +26,11 @@
         const data = await response.json();
         const isKoreanIP = data.country === 'KR';
   
-        const koreanRegions = ['Seoul', 'Busan', 'Incheon', 'Daegu', 'Gwangju', 'Daejeon', 'Ulsan'];
+        // const koreanRegions = ['Seoul', 'Busan', 'Incheon', 'Daegu', 'Gwangju', 'Daejeon', 'Ulsan'];
         const isKoreanRegion = koreanRegions.includes(data.region);
-        const isKoreanLanguage = navigator.language.startsWith('ko');
+        // const isKoreanLanguage = navigator.language.startsWith('ko');
   
-        if (isKoreanIP && isKoreanLanguage && isKoreanRegion) {
+        if (isKoreanIP) {
           document.getElementById('Korea').style.display = 'block';
           document.getElementById('NoKorea').style.display = 'none';
   
