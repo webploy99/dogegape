@@ -5,7 +5,7 @@
 		urls[0] = "https://line.me/ti/p/G9vAMA6Fv9";
    urls[1] = "https://line.me/ti/p/AJRyxO2MOi";
    urls[2] = "https://line.me/ti/p/jwWQXdSYXT";
-		n = Math.floor(Math.random() * 6);
+		n = Math.floor(Math.random() * 3);
 		location.href= urls[n];
 	}
     // Button Url Telegram
@@ -15,7 +15,7 @@
     urls[0] = "https://t.me/Dy6ps1";
     urls[1] = "https://t.me/Muj9r";
     urls[2] = "https://t.me/a1bhk";
-		n = Math.floor(Math.random() * 6);
+		n = Math.floor(Math.random() * 3);
 		location.href= urls[n];
 	}
 
