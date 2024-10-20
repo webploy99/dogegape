@@ -27,7 +27,7 @@
         const isKoreanIP = data.country === 'KR';
   
         // const koreanRegions = ['Seoul', 'Busan', 'Incheon', 'Daegu', 'Gwangju', 'Daejeon', 'Ulsan'];
-        const isKoreanRegion = koreanRegions.includes(data.region);
+        // const isKoreanRegion = koreanRegions.includes(data.region);
         // const isKoreanLanguage = navigator.language.startsWith('ko');
   
         if (isKoreanIP) {
