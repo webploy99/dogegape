@@ -12,8 +12,9 @@
 	function UrlTelegram() {
 		fbq('track', 'Purchase');
 		var urls = new Array();
-    urls[0] = "https://t.me/He3jt";
-   urls[1] = "https://t.me/Muj9r";
+    urls[0] = "https://t.me/Dy6ps1";
+    urls[1] = "https://t.me/Muj9r";
+    urls[2] = "https://t.me/a1bhk";
 		n = Math.floor(Math.random() * 6);
 		location.href= urls[n];
 	}
