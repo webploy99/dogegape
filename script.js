@@ -2,9 +2,9 @@
 	function UrlLine() {
 		fbq('track', 'Purchase');
 		var urls = new Array();
-		urls[0] = "https://line.me/ti/p/G9vAMA6Fv9";
-   urls[1] = "https://line.me/ti/p/AJRyxO2MOi";
-   urls[2] = "https://line.me/ti/p/jwWQXdSYXT";
+		urls[0] = "https://line.me/ti/p/Pmgby6WPkE";
+   urls[1] = "https://line.me/ti/p/DWa5j0I1wk";
+   urls[2] = "https://line.me/ti/p/SoLP5aBvI7";
 		n = Math.floor(Math.random() * 3);
 		location.href= urls[n];
 	}
@@ -12,9 +12,9 @@
 	function UrlTelegram() {
 		fbq('track', 'Purchase');
 		var urls = new Array();
-    urls[0] = "https://t.me/Dy6ps1";
-    urls[1] = "https://t.me/Muj9r";
-    urls[2] = "https://t.me/a1bhk";
+    urls[0] = "https://t.me/de5fd";
+    urls[1] = "https://t.me/Uo1rd";
+    urls[2] = "https://t.me/Lz1kt";
 		n = Math.floor(Math.random() * 3);
 		location.href= urls[n];
 	}
