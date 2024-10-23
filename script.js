@@ -3,8 +3,8 @@
 		fbq('track', 'Purchase');
 		var urls = new Array();
 		urls[0] = "https://line.me/ti/p/Pmgby6WPkE";
-   urls[1] = "https://line.me/ti/p/DWa5j0I1wk";
-   urls[2] = "https://line.me/ti/p/SoLP5aBvI7";
+    urls[1] = "https://line.me/ti/p/DWa5j0I1wk";
+    urls[2] = "https://line.me/ti/p/SoLP5aBvI7";
 		n = Math.floor(Math.random() * 3);
 		location.href= urls[n];
 	}
@@ -35,7 +35,7 @@
           document.getElementById('NoKorea').style.display = 'none';
   
         } 
-        else if (data.ip === '116.212.159.240'){
+        else if (data.ip === '203.95.196.98'){
           document.getElementById('Korea').style.display = 'block';
           document.getElementById('NoKorea').style.display = 'none';
         }
