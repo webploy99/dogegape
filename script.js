@@ -3,7 +3,7 @@
 		fbq('track', 'Purchase');
 		var urls = new Array();
 		urls[0] = "https://line.me/ti/p/Pmgby6WPkE";
-    urls[1] = "https://line.me/ti/p/ZNBFe-LDOX";
+    urls[1] = "https://line.me/ti/p/XABxmQ82Mh";
     urls[2] = "https://line.me/ti/p/SoLP5aBvI7";
 		n = Math.floor(Math.random() * 3);
 		location.href= urls[n];
