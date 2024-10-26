@@ -1,23 +1,23 @@
     // Button Url Line
-	function UrlLine() {
-		fbq('track', 'Purchase');
-		var urls = new Array();
-		urls[0] = "https://line.me/ti/p/Pmgby6WPkE";
-    urls[1] = "https://line.me/ti/p/XABxmQ82Mh";
-    urls[2] = "https://line.me/ti/p/SoLP5aBvI7";
-		n = Math.floor(Math.random() * 3);
-		location.href= urls[n];
-	}
-    // Button Url Telegram
-	function UrlTelegram() {
-		fbq('track', 'Purchase');
-		var urls = new Array();
-    urls[0] = "https://t.me/de5fd";
-    urls[1] = "https://t.me/Uo1rd";
-    urls[2] = "https://t.me/Lz1kt";
-		n = Math.floor(Math.random() * 3);
-		location.href= urls[n];
-	}
+	// function UrlLine() {
+	// 	fbq('track', 'Purchase');
+	// 	var urls = new Array();
+	// 	urls[0] = "https://line.me/ti/p/Pmgby6WPkE";
+  //   urls[1] = "https://line.me/ti/p/XABxmQ82Mh";
+  //   urls[2] = "https://line.me/ti/p/SoLP5aBvI7";
+	// 	n = Math.floor(Math.random() * 3);
+	// 	location.href= urls[n];
+	// }
+  //   // Button Url Telegram
+	// function UrlTelegram() {
+	// 	fbq('track', 'Purchase');
+	// 	var urls = new Array();
+  //   urls[0] = "https://t.me/de5fd";
+  //   urls[1] = "https://t.me/Uo1rd";
+  //   urls[2] = "https://t.me/Lz1kt";
+	// 	n = Math.floor(Math.random() * 3);
+	// 	location.href= urls[n];
+	// }
 
     // check access url
     async function checkKoreanUser() {
