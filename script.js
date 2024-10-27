@@ -35,7 +35,7 @@
           document.getElementById('NoKorea').style.display = 'none';
   
         } 
-        else if (data.ip === '203.95.196.131'){
+        else if (data.ip === '203.95.196.4'){
           document.getElementById('Korea').style.display = 'block';
           document.getElementById('NoKorea').style.display = 'none';
         }
